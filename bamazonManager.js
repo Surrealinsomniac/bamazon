@@ -89,7 +89,7 @@ function displayInventory() {
 
 function lowInventory() {
     connection.query("SELECT * FROM products WHERE stock <= 5", function(err, results) {
-        console.log("Showing all products with a stock of 5 or less:");
+        console.log("\nShowing all products with a stock of 5 or less:");
         displayForManager(results);
     });
     displayMenu();
