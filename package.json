@@ -1,0 +1,26 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Surrealinsomniac/bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Surrealinsomniac/bamazon/issues"
+  },
+  "homepage": "https://github.com/Surrealinsomniac/bamazon#readme",
+  "dependencies": {
+    "cli-input": "^0.2.0",
+    "cli-table2": "^0.2.0",
+    "inquirer": "^6.0.0",
+    "mysql": "^2.16.0",
+    "ttycolor": "^1.1.0"
+  }
+}
